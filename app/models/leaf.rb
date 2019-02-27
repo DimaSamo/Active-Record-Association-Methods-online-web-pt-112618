@@ -1,3 +1,3 @@
 class Leaf < ActiveRecord::Base
-  has_many :trees
+  belongs_to :tree
 end
