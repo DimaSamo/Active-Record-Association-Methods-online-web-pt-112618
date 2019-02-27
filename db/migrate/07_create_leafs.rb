@@ -1,7 +1,7 @@
 class CreateLeafs < ActiveRecord::Migration
   def change
-    craete_table :trees do |t|
-      t.string :name
+    craete_table :leafs do |t|
+      t.string :shape
     end
   end
 end
