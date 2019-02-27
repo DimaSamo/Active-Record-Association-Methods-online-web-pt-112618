@@ -1,2 +1,2 @@
-class CreateTrees
+class CreateTrees < ActiveRecord::Migration
 end
